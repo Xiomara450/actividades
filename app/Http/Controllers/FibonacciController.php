@@ -9,9 +9,8 @@ class FibonacciController extends Controller
 
 public  function fibo(Request $request)
 {
-
 $fibo =array(0,1); 
- $numero=1;
+$numero=1;
 if(isset($request->numero)){
 $numero=$request->numero;
 if($numero>1){

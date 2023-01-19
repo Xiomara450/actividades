@@ -60,7 +60,10 @@ font-size: 15px;
 .placeholder{
 font-size: 50%;
 }
-
+a{
+text-align: center;
+display: block;
+}
 </STYle>
 <h1>FIBONACCI</h1>
 <pre class="pre">
