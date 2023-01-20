@@ -11,6 +11,7 @@
 body{
 background-image: url('storage/imagenes/fondo2.png');
 }
+
 h1{
 color:#c55c15;
 text-align: center;
