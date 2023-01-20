@@ -72,8 +72,7 @@ display: block;
     donde su padre era funcionario  de aduanas, y donde aprendió "el ábaco, al uso 
     de los indios". Después tuvo manera, por razones de tipo comercial, de conocer  todo lo que de esta ciencia se 
     enseñaba en Egipto, en Siria, en Sicilia y en Provenza </pre>
-    <h4>Xiomara</h4>
-    <h5></h5>
+
   
   
 <img src="{{asset('storage/imagenes/fibonacci.png')}}"class="imgf" alt="">
