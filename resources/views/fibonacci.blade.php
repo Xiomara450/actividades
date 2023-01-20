@@ -9,11 +9,13 @@
 <body>
 <STYle>
 body{
-background-image: url('storage/imagenes/fondo.png');
+background-image: url('storage/imagenes/fondo2.png');
 }
+
 h1{
-color:#e208b3;
+color:#c55c15;
 text-align: center;
+font-size: 50px;
 }
 .imgf{
 width: 15%;
@@ -46,13 +48,13 @@ background: #fc10ad;
 color: #000000;
 }
 .label{
-color: #ffffff;
+color: #080808;
 font-size: 3vh;
 text-align: center;
 display: block;
 }
 .pre{
-color: #ffffff;
+color: #000000;
 text-align: center;
 display: block;
 font-size: 15px;
@@ -75,7 +77,7 @@ display: block;
 
   
   
-<img src="{{asset('storage/imagenes/fibonacci.png')}}"class="imgf" alt="">
+<img src="{{asset('storage/imagenes/fibo.png')}}"class="imgf" alt="">
 
 
 <form action={{ route('fibo.fibonacci') }} method="POST">
