@@ -11,61 +11,53 @@
 
         <!-- Styles -->
         <style>
-            html, body {
-                background-color: #fff;
-                color: #636b6f;
-                font-family: 'Nunito', sans-serif;
-                font-weight: 200;
-                height: 100vh;
-                margin: 0;
+            body {
+            background-image: url('storage/imagenes/fondo1.png');
+            font-family:initial;
+            height: 100vh;
             }
 
-    
             .content {
-                text-align: center;
+            text-align: center;
             }
 
-            .title {
-                font-size: 84px;
+            .titulo {
+            font-weight: 500;
+            font-size: 84px;
+            top: 100px;
+            color: #01e472;
+            padding-right: 50%;
             }
 
             .links > a {
-                color: #636b6f;
-                padding: 0 25px;
-                font-size: 13px;
-                font-weight: 600;
-                letter-spacing: .1rem;
-                text-decoration: none;
-                text-transform: uppercase;
+            color: #e49c01;
+            font-size: 25px;
+            font-weight: 800; /* GROSOR DE LA LETRA  */
+            text-decoration: none;
+           
             }
+           .text{    
+           position: relative;
+           top: 400px;
+           }
+
+           
+            
+            
+
 
         </style>
     </head>
     <body>
-        <div class="flex-center position-ref full-height">
-            @if (Route::has('login'))
-                <div class="top-right links">
-                    @auth
-                        <a href="{{ url('/home') }}">Home</a>
-                    @else
-                        <a href="{{ route('login') }}">Login</a>
-
-                        @if (Route::has('register'))
-                            <a href="{{ route('register') }}">Register</a>
-                        @endif
-                    @endauth
-                </div>
-            @endif
-
-            <div class="content">
-                <div class="title m-b-md">
-                    FACTORIZACION
-                </div>
-
-                <div class="links">
-                    <a href="/factor">INTENTALO</a>
-                </div>
-            </div>
+        
+    <div class="content">
+        <div class="titulo">
+         FACTORIZACIÓN
         </div>
+
+        <div class="links">
+        <a href="/factor" class="text">INTENTALO</a>
+        </div>
+    </div>
     </body>
 </html>

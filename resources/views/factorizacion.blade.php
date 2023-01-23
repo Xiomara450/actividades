@@ -9,10 +9,10 @@
 <body>
 <STYle>
 body{
-background-image: url('storage/imagenes/fondo1.png');
+background-image: url('storage/imagenes/fondofa.png');
 }
 h1{
-color:#030303;
+color:#2a07f5;
 text-align: center;
 }
 .imgf{
@@ -25,9 +25,8 @@ margin: auto;
 display: block;
 margin-top:50px;
 border:0; 
-background-color: #24f3e2;
+background-color: #24f392;
 width: 20%;
-outline: 0;
 border-radius: 5px;
 border:1px solid #000000;
 }
@@ -39,14 +38,14 @@ display: block;
 cursor: pointer;
 margin-top:40px;
 width: 8%; 
-background-color: #a9e5f0;
+background-color: #51e7ec;
 }
 .boton:hover{
 background: #fc10ad;
-color: #000000;
+color: #ffffff;
 }
 .label{
-color: #ffffff;
+color: #000000;
 font-size: 3vh;
 text-align: center;
 display: block;
@@ -59,6 +58,11 @@ font-size: 15px;
 }
 .placeholder{
 font-size: 50%;
+}
+a{
+text-align: center;
+display: block;
+color:#fd0000c9;
 }
 </STYle>
 <h1>FACTORIZACIÓN</h1>
@@ -76,10 +80,10 @@ font-size: 50%;
 <input type="text" class="input" name="numero" placeholder="Escribe un numero">
 <button type="submit" class="boton">Validar</button>
 
-<a href="/">Regresar</a>
+<a href="/" >Regresar</a>
 
-@if (isset($factor))
-<label class="label">Estos son los numeros Fibonacci:  {{$factor}}  </label>
+@if (isset($factor,$numero))
+<label class="label">El factor de: {{$numero}}  es: {{$factor}}</label>
 @endif
 </form>
 </body>
