@@ -16,3 +16,8 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/palin', function () {
+    return view('palindromo');
+});
+Route::post('/palin','PalindromoController@palin')->name ('palin.palindromo');
