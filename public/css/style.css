@@ -1,0 +1,72 @@
+
+body{
+display:inline-grid;
+place-items: center;
+width: 100%;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode' Verdana, sans-serif;
+}
+.Simon{
+position: relative;
+margin-top:50px;
+padding: 10px;
+border-radius: 5px;
+}
+h1{
+color: #a24ee2;
+left: 50%;
+}
+#buttonJugar{
+width: 75px;
+position: absolute;
+top: 32.9vh;
+border: none;
+cursor: pointer;
+left: 45vh;
+background-color: #8040e9;
+color: aliceblue;
+border-radius: 5px;
+padding: 2px;
+}
+#buttonJugar:disabled{
+background-color: #f5cd99;
+}
+.winner{
+animation: spin 5s ease-in-out;
+}
+@keyframes spin {
+100% { transform: rotate(180deg);}
+}
+
+
+.buttoncolor{
+display: inline-grid;
+grid-gap: 10px;
+grid-template-columns: auto auto;
+transform: rotate(45deg);
+margin-top: 80px;
+}
+.square{
+border-radius: 5px;
+width: 150px;
+height: 150px;
+cursor: pointer;
+
+}
+
+.square:active,
+.active{
+filter: brightness(150%);
+}
+.red{
+background-color: #bd0e08;
+}
+.green{
+background-color: #2a9e3a;
+}
+.yellow{
+background-color: #f0ed4c;
+}
+.blue{
+background-color: #3ea8da;
+}
+
