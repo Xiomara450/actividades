@@ -5,7 +5,7 @@ place-items: center;
 width: 100%;
 font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode' Verdana, sans-serif;
 }
-.Simon{
+.contenedor{
 position: relative;
 margin-top:50px;
 padding: 10px;
@@ -15,10 +15,10 @@ h1{
 color: #a24ee2;
 left: 50%;
 }
-#buttonJugar{
-width: 75px;
+#btnEmpezar{
+width: 80px;
 position: absolute;
-top: 32.9vh;
+top: 26.9vh;
 border: none;
 cursor: pointer;
 left: 45vh;
@@ -27,7 +27,7 @@ color: aliceblue;
 border-radius: 5px;
 padding: 2px;
 }
-#buttonJugar:disabled{
+#btnEmpezar:disabled{
 background-color: #f5cd99;
 }
 .winner{
@@ -50,23 +50,22 @@ border-radius: 5px;
 width: 150px;
 height: 150px;
 cursor: pointer;
-
 }
 
 .square:active,
 .active{
 filter: brightness(150%);
 }
-.red{
+.rojo{
 background-color: #bd0e08;
 }
-.green{
+.verde{
 background-color: #2a9e3a;
 }
-.yellow{
+.amarillo{
 background-color: #f0ed4c;
 }
-.blue{
+.azul{
 background-color: #3ea8da;
 }
 

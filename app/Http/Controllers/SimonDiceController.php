@@ -6,15 +6,20 @@ use Illuminate\Http\Request;
 
 class SimonDiceController extends Controller
 {
-
-    public function simon()
+ 
+    public function getsimon()
     {
     return view('simon');
     }
 
     public  function start(Request $request)
+
     {
-      
+    
+
+
+
+
     }
 
 
