@@ -16,12 +16,12 @@
 
 <div class="contenedor">
   <div class="buttoncolor">
-    <div id="amarillo" class="square amarillo"></div>
-    <div id="azul"     class="square azul"></div>
-    <div id="rojo"     class="square rojo"></div>
-    <div id="verde"    class="square verde"></div>    
+    <div id="amarillo"  data-color="amarillo"  class="square amarillo"></div>
+    <div id="azul"      data-color="azul"      class="square azul"></div>
+    <div id="rojo"      data-color="rojo"      class="square rojo"></div>
+    <div id="verde"     data-color="verde"     class="square verde"></div>    
   </div>
-     <button id="btnEmpezar"onclick="iniciarJuego()">Empezar</button>
+     <button id="btnEmpezar"  onclick="iniciar()">Empezar</button>
 </div>
 
 

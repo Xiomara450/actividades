@@ -12,15 +12,4 @@ class SimonDiceController extends Controller
     return view('simon');
     }
 
-    public  function start(Request $request)
-
-    {
-    
-
-
-
-
-    }
-
-
 }

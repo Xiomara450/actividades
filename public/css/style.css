@@ -37,7 +37,6 @@ animation: spin 5s ease-in-out;
 100% { transform: rotate(180deg);}
 }
 
-
 .buttoncolor{
 display: inline-grid;
 grid-gap: 10px;
@@ -67,5 +66,11 @@ background-color: #f0ed4c;
 }
 .azul{
 background-color: #3ea8da;
+}
+.light{
+background-color: aqua !important;
+}
+.hide{
+display: none !important;
 }
 
