@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SIMON DICE</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-    
     <link rel="stylesheet" href="css/style.css">
+    <script src="js/simon.js" type="text/javascript" defer></script>
 </head>
 <body>
 
@@ -15,17 +15,18 @@
     
 
 <div class="contenedor">
+  <button id="btnEmpezar">Empezar</button>
   <div class="buttoncolor">
     <div id="amarillo"  data-color="amarillo"  class="square amarillo"></div>
     <div id="azul"      data-color="azul"      class="square azul"></div>
     <div id="rojo"      data-color="rojo"      class="square rojo"></div>
     <div id="verde"     data-color="verde"     class="square verde"></div>    
   </div>
-     <button id="btnEmpezar"  onclick="iniciar()">Empezar</button>
+    <div id="rondas"></div>
 </div>
 
 
 
-<script src="./simon.js"></script>
-</body>
+
+</body> 
 </html>

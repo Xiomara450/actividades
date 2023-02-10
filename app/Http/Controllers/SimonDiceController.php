@@ -7,9 +7,10 @@ use Illuminate\Http\Request;
 class SimonDiceController extends Controller
 {
  
-    public function getsimon()
+    public function simon()
     {
     return view('simon');
     }
+    
 
 }

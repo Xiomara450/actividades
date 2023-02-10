@@ -20,3 +20,4 @@ Route::get('/', function () {
 Route::get('/', function () {
     return view('simon');
 });
+Route::post('/fibo','SimonDiceController@simon')->name ('simon.simonDice');
