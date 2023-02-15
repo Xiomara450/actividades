@@ -1,13 +1,12 @@
-      
 
- alert('BIENVENIDOS......')
+      alert('BIENVENIDOS......')
        
       const round = document.getElementById('rondas');
       const buttoncolor = document.getElementsByClassName('square');
       const btnEmpezar = document.getElementById("btnEmpezar");
 
       this.errorSinido = new Audio(',/storage/imagenes/error.mp3');
-       this
+        this
          
 
       const amarillo = document.getElementById('amarillo');
